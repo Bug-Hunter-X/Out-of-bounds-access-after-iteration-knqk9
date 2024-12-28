@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: attempting to access a vector element using indexing after iterating through it using an iterator.  The code in `bug.rs` shows the erroneous behavior, and `bugSolution.rs` provides a corrected version. The error arises because the iterator consumes the vector's elements, and after iteration is complete, indexing will panic.
